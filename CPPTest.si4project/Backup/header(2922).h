@@ -1,6 +1,3 @@
-#ifndef HEADER_H
-#define HEADER_H
-
 #include <iostream>
 #include <string>
 #include <list>
@@ -9,7 +6,6 @@
 #include <time.h>
 #include <map>
 #include <windows.h>
-#include <sstream>
 using namespace std;
 
 template <typename T>
@@ -35,7 +31,4 @@ static inline T *qGetPtrHelper(T *ptr) { return ptr; }
 #define Q_D(Class) Class##Private * const d = d_func()
 #define Q_Q(Class) Class * const q = q_func()
 
-
-
-#endif
 

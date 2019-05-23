@@ -1,3 +1,5 @@
 del *.obj
-del *.bak
+del *.exe
+cd DataStructureAlgorithmCPP
+del *.obj
 del *.exe
