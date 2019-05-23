@@ -1,34 +1,4 @@
-#include "../header.h"
-
-class illegalParameterValue
-{
-public:
-	illegalParameterValue():message("Illegal parameter value"){};
-	illegalParameterValue(const char* theMessage)
-	{
-		message = theMessage;
-	};
-	void outputMessage(){cout<<message<<endl;};
-
-private:
-	string message;
-};
-
-
-template<class T>
-class LinearList
-{
-public:
-	virtual ~LinearList(){};
-	virtual bool empty() const = 0;
-	virtual int size() const = 0;
-	virtual T& get(int index) const = 0;
-	virtual int indexOf(const T& element) const = 0;
-	virtual void erase(int index) = 0;
-	virtual void insert(int index, const T& element) = 0;
-	virtual void output(ostream& out) const = 0;
-};
-
+#include "listAlgorithm.h"
 
 template<class T>
 class ArrayList : public LinearList<T>
@@ -189,7 +159,6 @@ void ArrayList<T>::output(ostream& out) const
 }
 
 
-
 template<class T>
 class vectorList : public LinearList<T>
 {
@@ -299,9 +268,9 @@ int main()
 	cout<<endl;
 	for(int i=0;i<length;i++)
 		arrList->insert(i,i*3);
-	arrList->output(cout);
+	cout<<*arrList;
 	arrList->erase(4);
-	arrList->output(cout);
+	cout<<*arrList;
 	LinearList<int> *vecList = new vectorList<int>;
 	for(int i=0;i<length;i++)
 		vecList->insert(i,i*3);
