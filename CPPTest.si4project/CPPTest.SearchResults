@@ -1,0 +1,267 @@
+---- rand Matches (337 in 42 files) ----
+BinaryHeap.cpp (CPlusPrimer) line 4 : int RandomCreate(int seed, int area)
+BinaryHeap.cpp (CPlusPrimer) line 6 : 	srand(seed);
+BinaryHeap.cpp (CPlusPrimer) line 7 : 	srand(rand());
+BinaryHeap.cpp (CPlusPrimer) line 8 : 	srand(rand());
+BinaryHeap.cpp (CPlusPrimer) line 9 : 	srand(rand());
+BinaryHeap.cpp (CPlusPrimer) line 10 : 	return rand()%area;
+BinaryHeap.cpp (CPlusPrimer) line 195 : 		arr[i] = RandomCreate(10*i+10,len*2);
+BinaryTree.cpp (CPlusPrimer\IntroductionToAlgorithm) line 190 : int RandomCreate(int seed, int area)
+BinaryTree.cpp (CPlusPrimer\IntroductionToAlgorithm) line 192 : 	srand(seed);
+BinaryTree.cpp (CPlusPrimer\IntroductionToAlgorithm) line 193 : 	srand(rand());
+BinaryTree.cpp (CPlusPrimer\IntroductionToAlgorithm) line 194 : 	srand(rand());
+BinaryTree.cpp (CPlusPrimer\IntroductionToAlgorithm) line 195 : 	srand(rand());
+BinaryTree.cpp (CPlusPrimer\IntroductionToAlgorithm) line 196 : 	return rand()%area;
+BinaryTree.cpp (CPlusPrimer\IntroductionToAlgorithm) line 243 : 		arr[i] = RandomCreate(10*i+10,len*10);
+FindMaxmumSubarray(4226).cpp (CPPTest.si4project\Backup) line 4 : int randomCreate(int seed, int range)
+FindMaxmumSubarray(4226).cpp (CPPTest.si4project\Backup) line 7 : 	srand(seed);
+FindMaxmumSubarray(4226).cpp (CPPTest.si4project\Backup) line 8 : 	srand(rand());
+FindMaxmumSubarray(4226).cpp (CPPTest.si4project\Backup) line 9 : 	srand(rand());
+FindMaxmumSubarray(4226).cpp (CPPTest.si4project\Backup) line 10 : 	if(rand()%2==0)
+FindMaxmumSubarray(4226).cpp (CPPTest.si4project\Backup) line 12 : 	srand(rand());
+FindMaxmumSubarray(4226).cpp (CPPTest.si4project\Backup) line 13 : 	return flag*rand()%range;
+FindMaxmumSubarray(4226).cpp (CPPTest.si4project\Backup) line 17 : int randomCreate(int range)
+FindMaxmumSubarray(4226).cpp (CPPTest.si4project\Backup) line 20 : 	srand(time());
+FindMaxmumSubarray(4226).cpp (CPPTest.si4project\Backup) line 21 : 	if(rand()%2==0)
+FindMaxmumSubarray(4226).cpp (CPPTest.si4project\Backup) line 23 : 	srand(rand());
+FindMaxmumSubarray(4226).cpp (CPPTest.si4project\Backup) line 24 : 	return flag*rand()%range;
+FindMaxmumSubarray(4226).cpp (CPPTest.si4project\Backup) line 149 : 		arr[i] = randomCreate(10*i+10,100);
+FindMaxmumSubarray(4226).cpp (CPPTest.si4project\Backup) line 173 : 			arr[j] = randomCreate(10*j+10,100);
+FindMaxmumSubarray.cpp (CPlusPrimer\IntroductionToAlgorithm) line 4 : int randomCreate(int seed, int range)
+randomCreate in FindMaxmumSubarray.cpp (CPlusPrimer\IntroductionToAlgorithm) : 	srand(seed);
+randomCreate in FindMaxmumSubarray.cpp (CPlusPrimer\IntroductionToAlgorithm) : 	srand(rand());
+randomCreate in FindMaxmumSubarray.cpp (CPlusPrimer\IntroductionToAlgorithm) : 	srand(rand());
+randomCreate in FindMaxmumSubarray.cpp (CPlusPrimer\IntroductionToAlgorithm) : 	if(rand()%2==0)
+randomCreate in FindMaxmumSubarray.cpp (CPlusPrimer\IntroductionToAlgorithm) : 	srand(rand());
+randomCreate in FindMaxmumSubarray.cpp (CPlusPrimer\IntroductionToAlgorithm) : 	return flag*rand()%range;
+FindMaxmumSubarray.cpp (CPlusPrimer\IntroductionToAlgorithm) line 17 : int randomCreate(int range)
+randomCreate in FindMaxmumSubarray.cpp (CPlusPrimer\IntroductionToAlgorithm) : 	srand(time());
+randomCreate in FindMaxmumSubarray.cpp (CPlusPrimer\IntroductionToAlgorithm) : 	if(rand()%2==0)
+randomCreate in FindMaxmumSubarray.cpp (CPlusPrimer\IntroductionToAlgorithm) : 	srand(rand());
+randomCreate in FindMaxmumSubarray.cpp (CPlusPrimer\IntroductionToAlgorithm) : 	return flag*rand()%range;
+Test1 in FindMaxmumSubarray.cpp (CPlusPrimer\IntroductionToAlgorithm) : 		arr[i] = randomCreate(10*i+10,100);
+Test2 in FindMaxmumSubarray.cpp (CPlusPrimer\IntroductionToAlgorithm) : 			arr[j] = randomCreate(10*j+10,100);
+HeapSort.cpp (Sort) line 4 : int randomCreate(int seed, int range)
+randomCreate in HeapSort.cpp (Sort) : 	srand(seed);
+randomCreate in HeapSort.cpp (Sort) : 	srand(rand());
+randomCreate in HeapSort.cpp (Sort) : 	srand(rand())	;
+randomCreate in HeapSort.cpp (Sort) : 	return rand()%range;
+main in HeapSort.cpp (Sort) : 		arr[i] = randomCreate(10*i+10,length*4);
+InteractionModel.cpp (CPlusPrimer\DesignPattern) line 129 : 	srand(time(0));
+InteractionModel.cpp (CPlusPrimer\DesignPattern) line 130 : 	int saleStatus = rand()%100;
+Sale::getSaleStatus in InterMediaModel.cpp (Sort) : 	srand(time(0));
+Sale::getSaleStatus in InterMediaModel.cpp (Sort) : 	int saleStatus = rand()%100;
+InterMediaModel_2(5271).cpp (CPPTest.si4project\Backup) line 63 : 	srand(time(0));
+InterMediaModel_2(5271).cpp (CPPTest.si4project\Backup) line 64 : 	int saleStatus = rand()%100;
+Sale::getSaleStatus in InterMediaModel_2.cpp (Sort) : 	srand(time(0));
+Sale::getSaleStatus in InterMediaModel_2.cpp (Sort) : 	int saleStatus = rand()%100;
+OriginalModel.cpp (CPlusPrimer\DesignPattern) line 48 : string getRandString(int length)
+OriginalModel.cpp (CPlusPrimer\DesignPattern) line 55 : 	srand(time(NULL));
+OriginalModel.cpp (CPlusPrimer\DesignPattern) line 58 : 		ch[i] = source.at(rand()%strLength);
+OriginalModel.cpp (CPlusPrimer\DesignPattern) line 70 : 		mail->setAppellation(getRandString(5).append(" Lady/Gentlemen "));
+OriginalModel.cpp (CPlusPrimer\DesignPattern) line 71 : 		mail->setReceiver(getRandString(5).append("@").append(getRandString(8)));
+ProgramTest.cpp (CPlusPrimer) line 2 : //#include <random>
+ProgramTest.cpp (CPlusPrimer) line 34 : int RandomCreate(int seed, int area)
+ProgramTest.cpp (CPlusPrimer) line 36 : 	srand(seed);
+ProgramTest.cpp (CPlusPrimer) line 37 : 	srand(rand());
+ProgramTest.cpp (CPlusPrimer) line 38 : 	return rand()%area;
+ProgramTest.cpp (CPlusPrimer) line 268 : 		arr[i] = RandomCreate(i,10*len);
+ProgramTest.cpp (CPlusPrimer\Backup) line 2 : //#include <random>
+ProgramTest.cpp (CPlusPrimer\Backup) line 34 : int RandomCreate(int seed, int area)
+ProgramTest.cpp (CPlusPrimer\Backup) line 36 : 	srand(seed);
+ProgramTest.cpp (CPlusPrimer\Backup) line 37 : 	srand(rand());
+ProgramTest.cpp (CPlusPrimer\Backup) line 38 : 	return rand()%area;
+ProgramTest.cpp (CPlusPrimer\Backup) line 268 : 		arr[i] = RandomCreate(i,10*len);
+Queue.cpp (CPlusPrimer\Backup) line 9 : int RandomCreate(int seed, int area)
+Queue.cpp (CPlusPrimer\Backup) line 11 : 	srand(seed);
+Queue.cpp (CPlusPrimer\Backup) line 12 : 	srand(rand());
+Queue.cpp (CPlusPrimer\Backup) line 13 : 	return rand()%area;
+Queue.cpp (CPlusPrimer\Backup) line 33 : //		que2.enqueue(RandomCreate(i,100+100*i));
+QuickSort.cpp (Sort) line 5 : int randomCreate(int seed, int range)
+randomCreate in QuickSort.cpp (Sort) : 	srand(seed);
+randomCreate in QuickSort.cpp (Sort) : 	srand(rand());
+randomCreate in QuickSort.cpp (Sort) : 	srand(rand())	;
+randomCreate in QuickSort.cpp (Sort) : 	return rand()%range;
+main in QuickSort.cpp (Sort) : 		arr[i] = randomCreate(10*i+10,length*10);
+RedBlackTree in RedBlackTreeCopy.cpp (Sort) : 	Node *grand;	//祖父节点
+insert in RedBlackTreeCopy.cpp (Sort) : 	current = parent = grand = header;
+insert in RedBlackTreeCopy.cpp (Sort) : 		great = grand; grand = parent; parent = current;	//旧的元素往上升一辈
+handleReorient in RedBlackTreeCopy.cpp (Sort) : 		grand->color = RED;
+handleReorient in RedBlackTreeCopy.cpp (Sort) : 		if (item < grand->element != item < parent->element)
+handleReorient in RedBlackTreeCopy.cpp (Sort) : 			parent = rotate(item, grand);
+ResponsibityModel.cpp (CPlusPrimer\DesignPattern) line 59 : 	srand(time(0));
+ResponsibityModel.cpp (CPlusPrimer\DesignPattern) line 63 : 		arrList->push_back(new Women(rand()%4,"I want to go shopping"));
+ResponsibityModel_2.cpp (CPlusPrimer\DesignPattern) line 109 : 	srand(time(0));
+ResponsibityModel_2.cpp (CPlusPrimer\DesignPattern) line 113 : 		arrList->push_back(new Women(rand()%4,"I want to go shopping"));
+SequenceList.cpp (CPlusPrimer\Backup) line 15 : 	array.insert(0,RandomCreate(4,1000));
+SequenceList.cpp (CPlusPrimer\Backup) line 18 : 	array.insert(6,RandomCreate(5,1000));
+SingletonTest.cpp (CPlusPrimer\DesignPattern) line 62 : 		srand(time(NULL)+count*3);
+SingletonTest.cpp (CPlusPrimer\DesignPattern) line 63 : 		count = rand()%5;
+MultiEmperor::getInstance in Sington.cpp (Sort) : 		srand(time(0)+count*10);
+MultiEmperor::getInstance in Sington.cpp (Sort) : 		count = rand()%number;
+SortArray.cpp (CPlusPrimer) line 4 : int RandomCreate(int seed, int area)
+SortArray.cpp (CPlusPrimer) line 6 : 	srand(seed);
+SortArray.cpp (CPlusPrimer) line 7 : 	srand(rand());
+SortArray.cpp (CPlusPrimer) line 8 : 	return rand()%area;
+SortArray.cpp (CPlusPrimer) line 63 : 		arr[i] = RandomCreate(10*i+10,100);
+SortBubble.cpp (CPlusPrimer) line 4 : int RandomCreate(int seed, int area)
+SortBubble.cpp (CPlusPrimer) line 6 : 	srand(seed);
+SortBubble.cpp (CPlusPrimer) line 7 : 	srand(rand());
+SortBubble.cpp (CPlusPrimer) line 8 : 	srand(rand());
+SortBubble.cpp (CPlusPrimer) line 9 : 	srand(rand());
+SortBubble.cpp (CPlusPrimer) line 10 : 	return rand()%area;
+SortBubble.cpp (CPlusPrimer) line 52 : 		arr[i] = RandomCreate(10*i+10,100);
+SortHeap.cpp (CPlusPrimer) line 5 : int RandomCreate(int seed, int area)
+SortHeap.cpp (CPlusPrimer) line 7 : 	srand(seed);
+SortHeap.cpp (CPlusPrimer) line 8 : 	srand(rand());
+SortHeap.cpp (CPlusPrimer) line 9 : 	srand(rand());
+SortHeap.cpp (CPlusPrimer) line 10 : 	srand(rand());
+SortHeap.cpp (CPlusPrimer) line 11 : 	return rand()%area;
+SortHeap.cpp (CPlusPrimer) line 68 : 		arr[i] = RandomCreate(10*i+10,len*10);
+SortInsert2.cpp (CPlusPrimer) line 4 : int RandomCreate(int seed, int area)
+SortInsert2.cpp (CPlusPrimer) line 6 : 	srand(seed);
+SortInsert2.cpp (CPlusPrimer) line 7 : 	srand(rand());
+SortInsert2.cpp (CPlusPrimer) line 8 : 	srand(rand());
+SortInsert2.cpp (CPlusPrimer) line 9 : 	srand(rand());
+SortInsert2.cpp (CPlusPrimer) line 10 : 	return rand()%area;
+SortInsert2.cpp (CPlusPrimer) line 51 : 		arr[i] = RandomCreate(10*i+10,100);
+SortMerge.cpp (CPlusPrimer) line 4 : int RandomCreate(int seed, int area)
+SortMerge.cpp (CPlusPrimer) line 6 : 	srand(seed);
+SortMerge.cpp (CPlusPrimer) line 7 : 	srand(rand());
+SortMerge.cpp (CPlusPrimer) line 8 : 	srand(rand());
+SortMerge.cpp (CPlusPrimer) line 9 : 	srand(rand());
+SortMerge.cpp (CPlusPrimer) line 10 : 	return rand()%area;
+SortMerge.cpp (CPlusPrimer) line 75 : 		arr[i] = RandomCreate(10*i+10,100);
+SortQuick.cpp (CPlusPrimer) line 5 : int RandomCreate(int seed, int area)
+SortQuick.cpp (CPlusPrimer) line 7 : 	srand(seed);
+SortQuick.cpp (CPlusPrimer) line 8 : 	srand(rand());
+SortQuick.cpp (CPlusPrimer) line 9 : 	srand(rand());
+SortQuick.cpp (CPlusPrimer) line 10 : 	srand(rand());
+SortQuick.cpp (CPlusPrimer) line 11 : 	return rand()%area;
+SortQuick.cpp (CPlusPrimer) line 68 : 		arr[i] = RandomCreate(10*i+10,len*2);
+SortQuickTest.cpp (CPlusPrimer) line 5 : int RandomCreate(int seed, int area)
+SortQuickTest.cpp (CPlusPrimer) line 7 : 	srand(seed);
+SortQuickTest.cpp (CPlusPrimer) line 8 : 	srand(rand());
+SortQuickTest.cpp (CPlusPrimer) line 9 : 	srand(rand());
+SortQuickTest.cpp (CPlusPrimer) line 10 : 	srand(rand());
+SortQuickTest.cpp (CPlusPrimer) line 11 : 	return rand()%area;
+SortQuickTest.cpp (CPlusPrimer) line 66 : 		arr[i] = RandomCreate(10*i+10,len*2);
+SortSelect1.cpp (CPlusPrimer) line 4 : int RandomCreate(int seed, int area)
+SortSelect1.cpp (CPlusPrimer) line 6 : 	srand(seed);
+SortSelect1.cpp (CPlusPrimer) line 7 : 	srand(rand());
+SortSelect1.cpp (CPlusPrimer) line 8 : 	return rand()%area;
+SortSelect1.cpp (CPlusPrimer) line 63 : 		arr[i] = RandomCreate(10*i+10,100);
+SortShell.cpp (CPlusPrimer) line 4 : int RandomCreate(int seed, int area)
+SortShell.cpp (CPlusPrimer) line 6 : 	srand(seed);
+SortShell.cpp (CPlusPrimer) line 7 : 	srand(rand());
+SortShell.cpp (CPlusPrimer) line 8 : 	srand(rand());
+SortShell.cpp (CPlusPrimer) line 9 : 	srand(rand());
+SortShell.cpp (CPlusPrimer) line 10 : 	return rand()%area;
+SortShell.cpp (CPlusPrimer) line 111 : 		arr[i] = RandomCreate(10*i+10,100);
+SortTemplate(2800).cpp (CPPTest.si4project\Backup) line 8 : int randomCreate(int seed, int range)
+SortTemplate(2800).cpp (CPPTest.si4project\Backup) line 10 : 	srand(seed);
+SortTemplate(2800).cpp (CPPTest.si4project\Backup) line 11 : 	srand(rand());
+SortTemplate(2800).cpp (CPPTest.si4project\Backup) line 12 : 	srand(rand())	;
+SortTemplate(2800).cpp (CPPTest.si4project\Backup) line 13 : 	return rand()%range;
+SortTemplate(2800).cpp (CPPTest.si4project\Backup) line 519 : 		arr[i] = randomCreate(10*i+10,length*10);
+SortTemplate(2800).cpp (CPPTest.si4project\Backup) line 542 : 		arr[i] = randomCreate(10*i+10,length*10);
+SortTemplate(2800).cpp (CPPTest.si4project\Backup) line 565 : 		arr[i] = randomCreate(10*i+10,100);
+SortTemplate(2800).cpp (CPPTest.si4project\Backup) line 591 : 			arr[j] = randomCreate(10*j+10,(j+1)*10);
+SortTemplate(3432).cpp (CPPTest.si4project\Backup) line 5 : int randomCreate(int seed, int range)
+SortTemplate(3432).cpp (CPPTest.si4project\Backup) line 7 : 	srand(seed);
+SortTemplate(3432).cpp (CPPTest.si4project\Backup) line 8 : 	srand(rand());
+SortTemplate(3432).cpp (CPPTest.si4project\Backup) line 9 : 	srand(rand())	;
+SortTemplate(3432).cpp (CPPTest.si4project\Backup) line 10 : 	return rand()%range;
+SortTemplate(3432).cpp (CPPTest.si4project\Backup) line 377 : 		arr[i] = randomCreate(10*i+10,length*10);
+SortTemplate(3432).cpp (CPPTest.si4project\Backup) line 400 : 		arr[i] = randomCreate(10*i+10,length*10);
+SortTemplate(3432).cpp (CPPTest.si4project\Backup) line 423 : 		arr[i] = randomCreate(10*i+10,100);
+SortTemplate(3432).cpp (CPPTest.si4project\Backup) line 449 : 			arr[j] = randomCreate(10*j+10,(j+1)*10);
+SortTemplate(347).cpp (CPPTest.si4project\Backup) line 5 : int randomCreate(int seed, int range)
+SortTemplate(347).cpp (CPPTest.si4project\Backup) line 7 : 	srand(seed);
+SortTemplate(347).cpp (CPPTest.si4project\Backup) line 8 : 	srand(rand());
+SortTemplate(347).cpp (CPPTest.si4project\Backup) line 9 : 	srand(rand())	;
+SortTemplate(347).cpp (CPPTest.si4project\Backup) line 10 : 	return rand()%range;
+SortTemplate(347).cpp (CPPTest.si4project\Backup) line 390 : 		arr[i] = randomCreate(10*i+10,length*10);
+SortTemplate(347).cpp (CPPTest.si4project\Backup) line 413 : 		arr[i] = randomCreate(10*i+10,length*10);
+SortTemplate(347).cpp (CPPTest.si4project\Backup) line 436 : 		arr[i] = randomCreate(10*i+10,100);
+SortTemplate(347).cpp (CPPTest.si4project\Backup) line 462 : 			arr[j] = randomCreate(10*j+10,(j+1)*10);
+SortTemplate(3954).cpp (CPPTest.si4project\Backup) line 5 : int randomCreate(int seed, int range)
+SortTemplate(3954).cpp (CPPTest.si4project\Backup) line 7 : 	srand(seed);
+SortTemplate(3954).cpp (CPPTest.si4project\Backup) line 8 : 	srand(rand());
+SortTemplate(3954).cpp (CPPTest.si4project\Backup) line 9 : 	srand(rand())	;
+SortTemplate(3954).cpp (CPPTest.si4project\Backup) line 10 : 	return rand()%range;
+SortTemplate(3954).cpp (CPPTest.si4project\Backup) line 136 : 		arr[i] = randomCreate(10*i+10,length*10);
+SortTemplate(5142).cpp (CPPTest.si4project\Backup) line 5 : int randomCreate(int seed, int range)
+SortTemplate(5142).cpp (CPPTest.si4project\Backup) line 7 : 	srand(seed);
+SortTemplate(5142).cpp (CPPTest.si4project\Backup) line 8 : 	srand(rand());
+SortTemplate(5142).cpp (CPPTest.si4project\Backup) line 9 : 	srand(rand())	;
+SortTemplate(5142).cpp (CPPTest.si4project\Backup) line 10 : 	return rand()%range;
+SortTemplate(5142).cpp (CPPTest.si4project\Backup) line 201 : 		arr[i] = randomCreate(10*i+10,length*10);
+SortTemplate(5953).cpp (CPPTest.si4project\Backup) line 8 : int randomCreate(int seed, int range)
+SortTemplate(5953).cpp (CPPTest.si4project\Backup) line 10 : 	srand(seed);
+SortTemplate(5953).cpp (CPPTest.si4project\Backup) line 11 : 	srand(rand());
+SortTemplate(5953).cpp (CPPTest.si4project\Backup) line 12 : 	srand(rand())	;
+SortTemplate(5953).cpp (CPPTest.si4project\Backup) line 13 : 	return rand()%range;
+SortTemplate(5953).cpp (CPPTest.si4project\Backup) line 519 : 		arr[i] = randomCreate(10*i+10,length*10);
+SortTemplate(5953).cpp (CPPTest.si4project\Backup) line 542 : 		arr[i] = randomCreate(10*i+10,length*10);
+SortTemplate(5953).cpp (CPPTest.si4project\Backup) line 565 : 		arr[i] = randomCreate(10*i+10,100);
+SortTemplate(5953).cpp (CPPTest.si4project\Backup) line 591 : 			arr[j] = randomCreate(10*j+10,(j+1)*10);
+SortTemplate(6245).cpp (CPPTest.si4project\Backup) line 7 : int randomCreate(int seed, int range)
+SortTemplate(6245).cpp (CPPTest.si4project\Backup) line 9 : 	srand(seed);
+SortTemplate(6245).cpp (CPPTest.si4project\Backup) line 10 : 	srand(rand());
+SortTemplate(6245).cpp (CPPTest.si4project\Backup) line 11 : 	srand(rand())	;
+SortTemplate(6245).cpp (CPPTest.si4project\Backup) line 12 : 	return rand()%range;
+SortTemplate(6245).cpp (CPPTest.si4project\Backup) line 504 : 		arr[i] = randomCreate(10*i+10,length*10);
+SortTemplate(6245).cpp (CPPTest.si4project\Backup) line 527 : 		arr[i] = randomCreate(10*i+10,length*10);
+SortTemplate(6245).cpp (CPPTest.si4project\Backup) line 550 : 		arr[i] = randomCreate(10*i+10,100);
+SortTemplate(6245).cpp (CPPTest.si4project\Backup) line 576 : 			arr[j] = randomCreate(10*j+10,(j+1)*10);
+SortTemplate(6469).cpp (CPPTest.si4project\Backup) line 5 : int randomCreate(int seed, int range)
+SortTemplate(6469).cpp (CPPTest.si4project\Backup) line 7 : 	srand(seed);
+SortTemplate(6469).cpp (CPPTest.si4project\Backup) line 8 : 	srand(rand());
+SortTemplate(6469).cpp (CPPTest.si4project\Backup) line 9 : 	srand(rand())	;
+SortTemplate(6469).cpp (CPPTest.si4project\Backup) line 10 : 	return rand()%range;
+SortTemplate(6469).cpp (CPPTest.si4project\Backup) line 366 : 		arr[i] = randomCreate(10*i+10,length*10);
+SortTemplate(6469).cpp (CPPTest.si4project\Backup) line 389 : 		arr[i] = randomCreate(10*i+10,100);
+SortTemplate(6469).cpp (CPPTest.si4project\Backup) line 415 : 			arr[j] = randomCreate(10*j+10,(j+1)*10);
+SortTemplate(6894).cpp (CPPTest.si4project\Backup) line 7 : int randomCreate(int seed, int range)
+SortTemplate(6894).cpp (CPPTest.si4project\Backup) line 9 : 	srand(seed);
+SortTemplate(6894).cpp (CPPTest.si4project\Backup) line 10 : 	srand(rand());
+SortTemplate(6894).cpp (CPPTest.si4project\Backup) line 11 : 	srand(rand())	;
+SortTemplate(6894).cpp (CPPTest.si4project\Backup) line 12 : 	return rand()%range;
+SortTemplate(6894).cpp (CPPTest.si4project\Backup) line 491 : 		arr[i] = randomCreate(10*i+10,length*10);
+SortTemplate(6894).cpp (CPPTest.si4project\Backup) line 514 : 		arr[i] = randomCreate(10*i+10,length*10);
+SortTemplate(6894).cpp (CPPTest.si4project\Backup) line 537 : 		arr[i] = randomCreate(10*i+10,100);
+SortTemplate(6894).cpp (CPPTest.si4project\Backup) line 563 : 			arr[j] = randomCreate(10*j+10,(j+1)*10);
+SortTemplate(874).cpp (CPPTest.si4project\Backup) line 5 : int randomCreate(int seed, int range)
+SortTemplate(874).cpp (CPPTest.si4project\Backup) line 7 : 	srand(seed);
+SortTemplate(874).cpp (CPPTest.si4project\Backup) line 8 : 	srand(rand());
+SortTemplate(874).cpp (CPPTest.si4project\Backup) line 9 : 	srand(rand())	;
+SortTemplate(874).cpp (CPPTest.si4project\Backup) line 10 : 	return rand()%range;
+SortTemplate(874).cpp (CPPTest.si4project\Backup) line 230 : 		arr[i] = randomCreate(10*i+10,length*10);
+SortTemplate(874).cpp (CPPTest.si4project\Backup) line 256 : 			arr[j] = randomCreate(10*j+10,(j+1)*10);
+SortTemplate.cpp (CPlusPrimer\IntroductionToAlgorithm) line 7 : int randomCreate(int seed, int range)
+SortTemplate.cpp (CPlusPrimer\IntroductionToAlgorithm) line 9 : 	srand(seed);
+SortTemplate.cpp (CPlusPrimer\IntroductionToAlgorithm) line 10 : 	srand(rand());
+SortTemplate.cpp (CPlusPrimer\IntroductionToAlgorithm) line 11 : 	srand(rand())	;
+SortTemplate.cpp (CPlusPrimer\IntroductionToAlgorithm) line 12 : 	return rand()%range;
+SortTemplate.cpp (CPlusPrimer\IntroductionToAlgorithm) line 15 : int randomCreate(int range)
+SortTemplate.cpp (CPlusPrimer\IntroductionToAlgorithm) line 17 : 	srand(time(NULL));
+SortTemplate.cpp (CPlusPrimer\IntroductionToAlgorithm) line 18 : 	return rand()%range;
+SortTemplate.cpp (CPlusPrimer\IntroductionToAlgorithm) line 412 : 		arr[i] = randomCreate(10*i+10,length*10);
+SortTemplate.cpp (CPlusPrimer\IntroductionToAlgorithm) line 438 : 			arr[j] = randomCreate(10*j+10,(j+1)*10);
+SortTemplate.cpp (CPlusPrimer\IntroductionToAlgorithm) line 464 : 		arr[i] = randomCreate(length*10);
+SortTemplate.cpp (CPlusPrimer\IntroductionToAlgorithm) line 490 : 			arr[j] = randomCreate((j+1)*10);
+SortTemplate.cpp (Sort) line 8 : int randomCreate(int seed, int range)
+randomCreate in SortTemplate.cpp (Sort) : 	srand(seed);
+randomCreate in SortTemplate.cpp (Sort) : 	srand(rand());
+randomCreate in SortTemplate.cpp (Sort) : 	srand(rand())	;
+randomCreate in SortTemplate.cpp (Sort) : 	return rand()%range;
+Test1 in SortTemplate.cpp (Sort) : 		arr[i] = randomCreate(10*i+10,length*10);
+Test4 in SortTemplate.cpp (Sort) : 		arr[i] = randomCreate(10*i+10,length*10);
+Test3 in SortTemplate.cpp (Sort) : 		arr[i] = randomCreate(10*i+10,100);
+Test2 in SortTemplate.cpp (Sort) : 			arr[j] = randomCreate(10*j+10,(j+1)*10);
+Stack.cpp (CPlusPrimer\Backup) line 9 : int RandomCreate(int seed, int area)
+Stack.cpp (CPlusPrimer\Backup) line 11 : 	srand(seed);
+Stack.cpp (CPlusPrimer\Backup) line 12 : 	srand(rand());
+Stack.cpp (CPlusPrimer\Backup) line 13 : 	return rand()%area;
+Stack.cpp (CPlusPrimer\Backup) line 39 : 		st2->push(RandomCreate(i,100+i*100));
