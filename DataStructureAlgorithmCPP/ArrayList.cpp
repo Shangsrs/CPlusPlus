@@ -105,7 +105,9 @@ void ArrayList<T>::checkIndex(int index) const
 template<class T>
 T& ArrayList<T>::get(int index) const
 {
-	checkIndex(index);
+//	checkIndex(index);
+	if(index<=0) index = 0;
+	if(index>=_size) index = _size-1;
 	return _element[index];
 }
 
@@ -122,7 +124,10 @@ int ArrayList<T>::indexOf(const T& element) const
 template<class T>
 void ArrayList<T>::erase(int index)
 {
-	checkIndex(index);
+//	checkIndex(index);
+	if(_size <=0)return;
+	if(index<=0) index = 0;
+	if(index>=_size) index = _size-1;
 	copy(_element+index+1,_element+_size,_element+index);
 	_size--;
 //	_element[--_size].~T();
@@ -130,12 +135,14 @@ void ArrayList<T>::erase(int index)
 template<class T>
 void ArrayList<T>::insert(int index,const T& element)
 {
-	if(index<0 || index >_size)
+/*	if(index<0 || index >_size)
 	{
 		ostringstream s;
 		s<<"index = "<<index<<" size = "<<_size;
 		throw illegalParameterValue(s.str().c_str());
-	}
+	}*/
+	if(index <= 0) index = 0;
+	if(index >= _size) index = _size;
 	if(_size == _length)
 	{
 		T* temp = _element;
@@ -231,19 +238,24 @@ void vectorList<T>::erase(int index)
 template<class T>
 void vectorList<T>::insert(int index,const T& element)
 {
-	if(index<0 || index>size())
+/*	if(index<0 || index>size())
 	{
 		ostringstream s;
 		s<<"Index = "<<index<<" size = "<<size();
 		throw illegalParameterValue(s.str().c_str());
-	}
+	}*/
+	if(size() <=0)return;
+	if(index<=0) index = 0;
+	if(index>=size()) index = size();
 	_element->insert(_element->begin()+index,element);
 }
 
 template<class T>
 T& vectorList<T>::get(int index) const
 {
-	checkIndex(index);
+//	checkIndex(index);
+	if(index<=0) index = 0;
+	if(index>=size()) index = size()-1;
 	return _element->at(index);
 }
 
