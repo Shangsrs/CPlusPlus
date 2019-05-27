@@ -240,7 +240,7 @@ void DLinkList<T>::output(ostream& out) const
 
 int main()
 {
-	LinearList<int> *chainList = new DLinkList<int>;
+	DLinkList<int> *chainList = new DLinkList<int>;
 	int length = 20;
 	cout<<"Please enter a number:";
 	cin>>length;
@@ -250,6 +250,8 @@ int main()
 	cout<<*chainList<<endl;
 	chainList->erase(15);
 	cout<<*chainList<<endl;
+	DLinkList<int> chainList2=*chainList;
+	cout<<chainList2<<endl;
 	return 0;
 }
 
