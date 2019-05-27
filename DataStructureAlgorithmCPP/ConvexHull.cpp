@@ -1,5 +1,9 @@
 #include "listAlgorithm.h"
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4fb975f2bb639d9da978acbd607cdf3f0f1185df
 #pragma comment  (lib,"User32.lib") 
 #pragma comment  (lib,"Gdi32.lib") 
 
@@ -41,6 +45,7 @@ int main2()
 	return 0;
 }
 
+<<<<<<< HEAD
 void OnPaint()
 {
 	CClientDC dc(this);
@@ -52,6 +57,22 @@ void OnPaint()
 		CPoint point(ptList->get(i)._x,ptList->get(i)._y);
 		dc.setPixel(point,RGB(255,0,0));
 	}
+=======
+void OnPaint(HWND hwnd)
+{
+	PAINTSTRUCT ps;
+	HDC hdc = BeginPaint(hwnd,&ps);
+	CDC *dc = CDC::FromHandle(hdc);
+	LinearList<Point> *ptList = createPoints(20);
+	CBrush *pBrush=CBrush::FromHandle((HBRUSH)GetStockObject(NULL_BRUSH));
+//	dc->SelectObject(pBrush);
+	for(int i=0;i<20;i++)
+	{
+		CPoint point(ptList->get(i)._x,ptList->get(i)._y);
+		dc->SetPixel(point,RGB(255,0,0));
+	}
+	EndPaint(hwnd,&ps);
+>>>>>>> 4fb975f2bb639d9da978acbd607cdf3f0f1185df
 };
 
 LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
@@ -122,7 +143,11 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
         PostQuitMessage(0);
         break;
 	case WM_PAINT:
+<<<<<<< HEAD
 		OnPaint();
+=======
+		OnPaint(hwnd);
+>>>>>>> 4fb975f2bb639d9da978acbd607cdf3f0f1185df
 		break;
     default:
         return DefWindowProc(hwnd, message, wParam, lParam);
