@@ -8,7 +8,7 @@
 #include <algorithm>
 #include <time.h>
 #include <windows.h>
-
+#include <fstream>
 using namespace std;
 
 string getRandString(int length)

@@ -14,11 +14,12 @@ int main(int argc, char* argv[])
 		cout<<endl;
 	}
 	fstream readFile;
-	try
+	readFile.open(inputFile,std::fstream::in );
+	if(readFile.is_open())
 	{
-		readFile.open(inputFile,std::fstream::in | );
+		cout<<"Open file "<<inputFile<<" Success"<<endl;
 	}
-	catch(ios_base::failure)
+	else
 	{
 		cout<<"Open file "<<inputFile<<" error"<<endl;
 		return 1;
@@ -26,16 +27,17 @@ int main(int argc, char* argv[])
 	strcpy(outputFile,inputFile);
 	strcat(outputFile,".zzz");
 	fstream writeFile;
-	try
+	writeFile.open(outputFile,std::fstream::out | std::fstream::binary);
+	if(writeFile.is_open())
 	{
-		writeFile.open(outputFile,std::fstream::out | std::fstream::binary);
+		cout<<"Open file "<<outputFile<<" Success"<<endl;
 	}
-	catch(ios_base::failure)
+	else
 	{
 		cout<<"Open file "<<outputFile<<" error"<<endl;
 		return 1;
 	}
 	readFile.close();
 	writeFile.close();
-	return 0；
+	return 0;
 }
