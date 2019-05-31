@@ -35,4 +35,19 @@ int randomCreate(int range)
 	return rand()%range;
 }
 
+class illegalParameterValue
+{
+public:
+	illegalParameterValue():message("Illegal parameter value"){};
+	illegalParameterValue(const char* theMessage)
+	{
+		message = theMessage;
+	};
+	void outputMessage(){cout<<message<<endl;};
+
+private:
+	string message;
+};
+
+
 #endif
