@@ -98,12 +98,26 @@ void MaxHeap<T>::initArray(T * arr, int length)
 {
 //	for(int i=0;i<length;i++)
 //		push(arr[i]);
-	int parent = 0;
-	int child = 2*parent+1;
-	for(int i=0;i<length;i++)
+	for(int i=0;i<length/2;i++)
 	{
-		
+		int child = length-1-i;
+		for(int parent = child/2;child>0;)
+		{
+			if(child+1 < length && arr[child+1] > arr[child])
+				child = child +1;
+			if(arr[parent]<arr[child])
+			{
+				T temp = arr[parent];
+				arr[parent] = arr[child];
+				arr[child] = temp;
+			}
+			child = parent;
+			parent = child/2;
+		}
 	}
+	delete[] _heap;
+	_heap = arr;
+	_size = length;
 }
 
 
